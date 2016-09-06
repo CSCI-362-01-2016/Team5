@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ls *TestAutomation > dirList.txt
+x-www-browser dirList.txt
+
+
