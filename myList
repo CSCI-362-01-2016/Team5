@@ -1,0 +1,10 @@
+#!/bin/bash
+clear
+
+ls */* > dirList.txt
+
+content=$(x-www-browser dirList.txt)
+
+echo $content
+
+
