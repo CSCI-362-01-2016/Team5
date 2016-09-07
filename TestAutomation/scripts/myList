@@ -1,6 +1,10 @@
 #!/bin/bash
+clear
 
-ls *TestAutomation > dirList.txt
-x-www-browser dirList.txt
+ls */* > dirList.txt
+
+content=$(x-www-browser dirList.txt)
+
+echo $content
 
 
